@@ -1,0 +1,46 @@
+
+{% if statistics is not empty %}
+    {% set counter1 = statistics.employees %}
+    {% set counter2 = statistics.client %}
+    {% set counter3 = statistics.satisfaction %}
+    {% set counter4 = statistics.satistifiedCustomer %}
+{% else %}
+    {% set counter1 = 35 %}
+    {% set counter2 = 70 %}
+    {% set counter3 = 100 %}
+    {% set counter4 = 90 %}
+{% endif %}
+<div class="funfacts two parallax">
+    <div class="container">
+
+        <div class="funfacts-inner">
+            <h2 class="main-title">Statistique</h2>
+            <div class="row" id="counters">
+                <div class="col-md-3 col-xs-6">
+                    <div class="counter">
+                        <span class="quantity-counter1 highlight" data-statistic="{{ counter1 }}">0</span>
+                        <h6 class="counter-details">Employées</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="counter">
+                        <span class="quantity-counter2 highlight" data-statistic="{{ counter2 }}">0</span>
+                        <h6 class="counter-details" >Clients</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="counter">
+                        <span class="quantity-counter3 highlight" data-statistic="{{ counter3 }}">0</span>
+                        <h6 class="counter-details" >% Satisfaction</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-6">
+                    <div class="counter">
+                        <span class="quantity-counter4 highlight" data-statistic="{{ counter4 }}">0</span>
+                        <h6 class="counter-details">Clients satisfaits</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- / CONTAINER -->
+</div>

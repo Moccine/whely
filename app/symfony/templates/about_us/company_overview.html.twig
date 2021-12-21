@@ -1,0 +1,30 @@
+
+    <!-- COMPANY OVERVIEW -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 animate fadeInLeft">
+                    {% if about_description is not empty %}
+                    <h2>{{ about_description.title }}</h2>
+                    <div class="height-10"></div>
+                    <p>{{ about_description.description }}</p>
+                    {% endif %}
+                </div>
+                <div class="col-md-6 animate fadeInRight">
+                    <div class="image-widget">
+                        <img src="{{ asset('images/bmsconsulting/bms-consulting-mini2.jpg') }}" alt="">
+
+                {#    {% if about_description.FirstMedia %}
+                        <img src="{{ asset('upload_medias/'~ service.firstMedia.image) }}" alt="">
+                    {% else %}
+                        <img src="{{ asset('images/bmsconsulting/bms-consulting-mini2.jpg') }}" alt="">
+                    {% endif %}
+                    #}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / COMPANY OVERVIEW -->
+

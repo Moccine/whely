@@ -1,0 +1,21 @@
+<section class="bg-blue">
+    <div class="container">
+        <div class="heading margin-bottom-50 animate bounceIn">
+            <h2>Notre histoire</h2>
+            <p></p>
+        </div>
+        {% if company_histories is not empty %}
+            <ul class="company-history">
+                {% for company_history in company_histories %}
+                    <li class="clearfix animate fadeInLeft">
+                        <span class="year">{{ company_history.historyDate|date('Y') }}</span>
+                        <div class="history-content">
+                            <h4>{{ company_history.title }}</h4>
+                                <p> {{ company_history.description }}</p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</section>

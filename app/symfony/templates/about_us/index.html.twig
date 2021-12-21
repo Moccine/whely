@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <div class="row">
+        <section class="subpage-header">
+            <div class="container">
+                <div class="site-title clearfix">
+                    <h2>A propos</h2>
+                    <ul class="breadcrumbs">
+                        <li><a href="{{ path('home_page') }}">Accueil</a></li>
+                        <li>A propos</li>
+                    </ul>
+                </div>
+                <a href="{{ path('contact') }}" class="btn btn-primary get-in-touch" data-text="Contact us"><i class="icon-telephone114"></i>Contact us</a>
+            </div>
+        </section>
+    </div>
+    <!-- HERDER -->
+    <!-- COMPANY OVERVIEW -->
+{% include 'about_us/company_overview.html.twig' %}
+    <!-- / COMPANY OVERVIEW -->
+    <!-- COMPANY HISTORY -->
+    {% include 'about_us/company_history.html.twig' %}
+    <!-- / COMPANY HISTORY -->
+    <!--  OUR TEAM -->
+    {%  include 'our_team/index.html.twig' %}
+    <!-- / OUR TEAM -->
+
+{% endblock %}
+

@@ -1,0 +1,50 @@
+.google-map [aria-hidden] { display: block }
+.google-map{
+  & iframe{
+    height: 660px;
+    width: 100%;
+    margin-bottom: -7px;
+  }
+}
+
+p.service-summary {
+  height: 80px !important;
+}
+
+p.service-summary > p {
+  height: 0px !important;
+  overflow: hidden;
+}
+h2.main-title {
+  color: #00a314;
+  font-weight: 500;
+}
+.header-links li .btn-quote {
+  position: relative;
+  top: -8px;
+  background: #00a314;
+}
+.header-links li i {
+  float: left;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  border: 1px solid #b7b7b7;
+  margin-right: 10px;
+  text-align: center;
+  color: #09a223;
+  font-size: 22px;
+  line-height: 40px;
+}
+[class^="icon-"], [class*=" icon-"] {
+  color: #00a400;
+}
+.owl-carousel {
+  height: 359px;
+  overflow: hidden;
+}
+.partner img {
+  width: 224px;
+  height: 158px;
+  padding: 2px;
+}

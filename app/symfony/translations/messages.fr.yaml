@@ -1,0 +1,95 @@
+app:
+  name: 'Bms consulting'
+  phone: '+224 669 26 31 85'
+  tel: '+224 669 38 45 06'
+  email: 'contact@bmsconsulting-gn.com'
+  website: 'www.bmsconsulting-gn.com'
+  menu:
+    home: 'Accueil'
+    about_us: 'Qui somme nou ?'
+    service: 'Service'
+    service_it: 'Services IT'
+    contact: 'Contact'
+    actuality: 'Actualités'
+    contact_us: 'Nous contacter'
+  paragraph:
+    read_more: 'Lire la suite'
+  company:
+    address_complete: '<span>Pont de kaporo, carrefour conteyah Conakry</span>'
+    address_complete2: '<span>Nongo commune de Ratoma Conakry</span>'
+    address: 'Commune de Kaloum, Conakry, Guinée'
+    postal_code: ''
+    city: 'Pont de kaporo carrefour conteyah'
+    city2: 'Conakry'
+    country: 'Guinée'
+    description: 'Bmsconsulting Formation, cabinet d''études, réseaux et télécoms, gestion d''entreprise, système d''information, fournitures informatique'
+  form:
+    registration:
+      userName: 'Email'
+      plainPassword: 'Mot de passe'
+      secondPassword: 'Confirmation du mot de passe'
+      identicalPassword: 'Les mots de passes saisi ne sont pas identiques'
+      password_not_identical: 'Mot de passe non identique'
+      lastName: 'Nom'
+      firstName: 'Prénom'
+      phone: 'Téléphone'
+      company: 'Raison sociale'
+      address: 'Addresse'
+      postalCode: 'Code postal'
+      city: 'Ville'
+      country: 'Pays'
+      siret: 'Siret'
+      submit: 'Valider'
+      confirm: 'Votre compte a bien été confirmé. Vous pouvez à présent vous identifier.'
+    reset:
+      title: 'Réinitialiser votre mot de passe'
+      email: 'Email'
+      username: 'Identifiant'
+      newPassword: 'Saisissez votre nouveau mot de passe'
+      confirmPassword: 'Confirmez votre nouveau mot de passe'
+      submit: 'Valider'
+      confirmUpdate: 'Votre mot de passe a bien été modifié'
+    edit:
+      oldPassword: 'Entrer votre mot de passe actuel'
+      plainPassword: 'Entrer un nouveau mot de passe'
+      secondPassword: 'Répété le nouveau mot de passe'
+    login:
+      userName: 'Email'
+      password: 'Mot de passe'
+      submit: 'Valider'
+    submission:
+      firstName: 'Nom'
+      lastName: 'Prénom'
+      email: 'Email'
+      message: 'Message'
+      save: 'Enregister'
+    incident:
+      lastName: 'Nom'
+      firstName: 'Prénom'
+      society: 'Société'
+      description: 'Description de l''incident'
+    cart:
+      delivery: 'Livraison'
+      location: 'Location'
+      startDate: 'Début de la location'
+      endDate: 'Fin de bail'
+  flash:
+    updatePassword: 'Votre mot de passe a bien été mis à jour'
+    updatePasswordError: 'Une erreur s''est produite lors de la mise à jour de votre mot passe'
+    subscriptionNewsletter: 'Votre inscription à la newsletter a bien été prise en compte.'
+    closeIncident: 'L''incident a bien été cloturé'
+
+validator:
+  user:
+    password: 'Mot non conforme'
+
+ ############################################### Whelly #######################
+whelly:
+  name: 'Whelly'
+  mail: ' Contact@welhy.com'
+  phone_1: '626 26 26 58'
+  phone_2: '669 79 79 79'
+  address: 'Kaporo, Commune de Ratoma, BP 3141 Conakry Rep. de Guinée.'
+  site_web: 'www.welhy.com'
+  open_time: 'lundi - vendredi 9h - 18h<'
+  menu:

@@ -1,0 +1,72 @@
+<header id="header" class="site-header header-style-2">
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-9">
+                    <div class="contact-info">
+                        <ul>
+                            <li><i class="ti-mobile"></i>{{ 'whelly.phone_1'|trans }}</li>
+                            <li><i class="ti-email"></i>{{ 'whelly.mail'|trans }}</li>
+                            <li><i class="ti-time"></i> lundi - vendredi 9h - 18h</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-md-3">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- end topbar -->
+    <nav class="navigation navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="open-btn">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                {# LOGO #}
+                <a class="navbar-brand" href="{{ path('whelly_index') }}">
+                    <img class="logo-whelly" src="{{ asset('whelly/assets/images/logo.png') }}" alt="logo whelly">
+                </a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                <button class="close-navbar"><i class="ti-close"></i></button>
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ path('whelly_index') }}">Accueil</a></li>
+                    <li><a href="{{ path('whelly_about_us') }}">Qui sommes nous</a></li>
+                    <li><a href="{{ path('whelly_offers') }}">Offres</a></li>
+                    <li><a href={{ path('whelly_project') }}>Projets</a></li>
+                    <li><a href="{{ path('whelly_news') }}">New</a></li>
+                    <li><a href="{{ path('whelly_contact') }}">Contact</a></li>
+                </ul>
+            </div><!-- end of nav-collapse -->
+
+            <div class="search-contact">
+                <div class="header-search-form-wrapper">
+                    <button class="search-toggle-btn"><i class="ti-search"></i></button>
+                    <div class="header-search-form">
+                        <form>
+                            <div>
+                                <input type="text" class="form-control" placeholder="Search here...">
+                                <button type="submit"><i class="ti-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-btn">
+                    <a href="#" class="theme-btn">Demande de devis</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

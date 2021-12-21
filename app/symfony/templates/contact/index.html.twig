@@ -1,0 +1,106 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div class="row">
+    <section class="subpage-header">
+        <div class="container">
+            <div class="site-title clearfix">
+                <h2>Contact</h2>
+                <ul class="breadcrumbs">
+                    <li><a href="{{ path('home_page') }}">Accueil</a></li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <a href="{{ path('contact') }}" class="btn btn-primary get-in-touch" data-text="Contact us"><i class="icon-telephone114"></i>Contact us</a>
+        </div>
+    </section>
+    <!-- SERVICES CONTENT -->
+    <section >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 animate fadeInLeft">
+                    <div class="blog-thumbnail contact" style="height: 400px; overflow: hidden">
+                        <img  style="" alt="" src="{{ asset('images/bmsconsulting/bmsconsulting9.jpg') }}">
+                    </div>
+                    <div class="height-50"></div>
+                </div>
+                <div class="col-md-6 col-sm-6 animate fadeInLeft">
+                    <div class="row">
+                        <div class="map-with-address-widget animate fadeInRight">
+                            <h3>Notre agence</h3>
+
+                            <div class="contact-info-widget">
+                                <p><strong>Téléphone:</strong> {{ 'app.phone'|trans }} / {{ 'app.tel'|trans }}<br>
+                                    <strong>Email:</strong>
+                                    <a href="mailto:{{ 'app.email'|trans }}">{{ 'app.email'|trans }}</a>
+                                    <br>
+                                    <strong>Web:</strong> <a href="#.">{{ 'app.website'|trans }}</a>
+                                    <br>
+                                    <strong>Adresses:</strong>
+                                <ul class="agency-adress">
+                                    <li>{{ 'app.company.address_complete'|trans|raw }}</li>
+                                    <li>{{ 'app.company.address_complete2'|trans|raw }}</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="height-20"></div>
+                    <h3>Suivez nous</h3>
+                    <ul class="social">
+                        <li class="animate bounceIn">
+                            <a href="#." class="facebook">
+                                <i class="icon-facebook-1"></i>
+                            </a>
+                        </li>
+                        <li class="animate bounceIn" data-delay="100">
+                            <a href="#." class="twitter">
+                                <i class="icon-twitter-1"></i></a></li>
+                        <li class="animate bounceIn" data-delay="200">
+                            <a href="#." class="google-plus">
+                                <i class="icon-google"></i></a></li>
+                        <li class="animate bounceIn" data-delay="300">
+                            <a href="#." class="linkedin">
+                                <i class="icon-linkedin3"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="height-50"></div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 animate fadeInRight">
+                    <h3>Nous contacter</h3>
+                    <p class="success" id="success" style="display:none;"></p>
+                    {{ form_start(form, { 'attr':{ 'class': 'contact-form', 'id': 'contact_form'}}) }}
+                    <p class="error" id="error" style="display:none;">{{ form_errors(form) }}</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            {{ form_row(form.name) }}
+                        </div>
+                        <div class="col-md-6">
+                            {{ form_row(form.email) }}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            {{ form_row(form.phone) }}
+                        </div>
+                    </div>
+                    {{ form_row(form.message) }}
+                    <button class="btn btn-primary" name="" type="submit" data-text="Envoyé"
+                            onClick="validateContact();">Envoyé
+                    </button>
+                    {{ form_end(form) }}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><!-- / COMPANY OVERVIEW -->
+    <div class="google-map">
+        <iframe width="1080" height="625" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=Nongo%20Ratoma,%20Guinea&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+        </iframe>
+    </div>
+    <!-- / SERVICES CONTENT -->
+{% endblock %}

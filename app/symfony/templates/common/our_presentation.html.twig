@@ -1,0 +1,30 @@
+{% if presentations is not empty %}
+    <section class="presentation-carousel">
+        <div class="container">
+            <div class="heading margin-bottom-50 animate bounceIn">
+            </div>
+            <div class="two-items-carousel owl-carousel">
+                {% for key,presentation in presentations %}
+
+                    <div class="partner animate fadeInLeft">
+
+                        <a href="{{ path('presentation_details', {slug: presentation.slug}) }}">
+
+                            {% if presentation.FirstMedia %}
+                                <img class="img-responsive" src="{{ asset('upload_medias/'~ presentation.firstMedia.image) }}" alt="">
+                            {% else %}
+                                <img class="img-responsive" src="{{ asset('images/bmsconsulting/bms-consulting-mini2.jpg') }}" alt="">
+                            {% endif %}
+
+                            <div class="partner-content">
+                                <h4>{{ presentation.title }}</h4>
+                                <p>{{ presentation.summary|striptags|slice(0, 100) }}..</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+{% endif %}

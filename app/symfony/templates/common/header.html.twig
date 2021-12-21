@@ -1,0 +1,46 @@
+<!-- HERDER -->
+<header id="header" class="header-three">
+
+    <div class="container-fluid">
+        <!-- HEADER INNER -->
+        <div class="header clearfix">
+            <a href="{{ path('home_page') }}" class="logo">
+                <img src="{{ asset('images/logo-209-113.png') }}" alt="">
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-nav"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="header-links clearfix">
+                <li class="header-number">
+                    <a href="{{ path('contact') }}">
+                        <i class="icon-phone4"></i>
+                        {{ 'app.tel'|trans }}  /
+                        {{ 'app.phone'|trans }}</a>
+                </li>
+                <li class="header-time"><a href="{{ path('contact') }}"><i class="icon-clock"></i>{{ 'now'|date("d/m/Y") }}  de  08:00 - 16:30</a></li>
+                {% if app.user %}
+                <li><a href="{{ path('user_login') }}" class="btn btn-primary btn-quote" data-text="Deconnexion">Deconnexion</a></li>
+                {% else %}
+                    <li><a href="{{ path('logout') }}" class="btn btn-primary btn-quote" data-text="Connexion">Connexion</a></li>
+                {% endif %}
+            </ul>
+            <nav class="main-nav navbar-collapse collapse" id="primary-nav">
+                <ul class="nav nav-pills">
+                    <li class="dropdown active">
+                        <a href="{{ path('home_page') }}">{{ 'app.menu.home'|trans }}</a>
+                    </li>
+                    <li><a href="#"></a></li>
+                    <li><a href="{{ path('service_list') }}">Service SI</a></li>
+                    <li><a href="{{ path('news') }}">Actualité</a></li>
+                    <li><a d="menu-presentation" href="{{ path('about_us') }}">A propos</a></li>
+                    <li><a href="{{ path('contact') }}">{{ 'app.menu.contact'|trans }}</a></li>
+                </ul>
+            </nav>
+        </div><!-- / HEADER INNER -->
+    </div><!-- / CONTAINER -->
+</header>
+<!-- / HERDER -->

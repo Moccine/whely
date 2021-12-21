@@ -1,0 +1,41 @@
+.logo-whelly {
+ // margin-top: 26px !important;
+ // float: left;
+}
+.theme-btn, .theme-btn-s2, .submit-btn{
+ // background-color: #7ab54d;
+}
+.services-section-s2 .service-grids .fi:before, .services-section-s3 .service-grids .fi:before{
+  color: #5876a4;
+}
+.header-style-2 .navbar-brand img {
+  max-width: 125px;
+}
+// color
+$dark-gray: #2a2a2a;
+$white: #fff;
+$black: #000;
+$black2: #151222;
+$mid-gray: #687187;
+$orange: #7ab54d;
+$blue: #020d26;
+
+$theme-primary-color: $orange;
+$theme-secondary-color: $blue;
+$body-bg-color: $white;
+$section-bg-color: #edecec;
+$text-color: $mid-gray;
+$heading-color: $black2;
+
+$theme-primary-color: #7ab54d;
+.theme-btn:after, .theme-btn-s2:after, .submit-btn:after{
+  background: #7ab54d;
+}
+.contact-pg-section .office-info {
+  content: "";
+  background-color: #7ab54d;
+
+}
+input.error {
+  border: solid 1px red !important;
+}

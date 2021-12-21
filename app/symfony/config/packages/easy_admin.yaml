@@ -1,0 +1,16 @@
+easy_admin:
+  design:
+    form_theme:
+      - '@EasyAdmin/form/bootstrap_4.html.twig'
+      - '@FOSCKEditor/Form/ckeditor_widget.html.twig'
+  entities:
+    Services:
+      class: App\Entity\Services
+      form:
+        fields:
+          - { property: 'content', type: 'fos_ckeditor' }
+          - { property: 'summary', type: 'fos_ckeditor' }
+    Media:
+      list:
+        fields:
+          - { property: 'file', type: 'image', base_path: '%kernel.project_dir%/public/upload_medias' }

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="f3U2Gqw" resname="app.name">
+        <source>app.name</source>
+        <target>3D TECHNOLOGIE SYSTEM IDF</target>
+      </trans-unit>
+      <trans-unit id="oZF0hx7" resname="app.phone">
+        <source>app.phone</source>
+        <target>09 54 53 24 08</target>
+      </trans-unit>
+      <trans-unit id="5T9DV6h" resname="app.tel">
+        <source>app.tel</source>
+        <target>0785042014</target>
+      </trans-unit>
+      <trans-unit id="Z8MJclM" resname="app.email">
+        <source>app.email</source>
+        <target>contact@3dtechidf.com</target>
+      </trans-unit>
+      <trans-unit id="wqX_jYi" resname="app.website">
+        <source>app.website</source>
+        <target>www.mysite.com</target>
+      </trans-unit>
+      <trans-unit id="u4MYmW1" resname="app.form.registration.userName">
+        <source>app.form.registration.userName</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="E05z5Ir" resname="app.form.registration.plainPassword">
+        <source>app.form.registration.plainPassword</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="P7ETCL6" resname="app.form.registration.secondPassword">
+        <source>app.form.registration.secondPassword</source>
+        <target>Confirmation du mot de passe</target>
+      </trans-unit>
+      <trans-unit id="Vq_QMeJ" resname="app.form.registration.identicalPassword">
+        <source>app.form.registration.identicalPassword</source>
+        <target>Les mots de passes saisi ne sont pas identiques</target>
+      </trans-unit>
+      <trans-unit id="yEgxksc" resname="app.form.registration.password_not_identical">
+        <source>app.form.registration.password_not_identical</source>
+        <target>Mot de passe non identique</target>
+      </trans-unit>
+      <trans-unit id="dXwiQjJ" resname="app.form.registration.lastName">
+        <source>app.form.registration.lastName</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="yP9GZF9" resname="app.form.registration.firstName">
+        <source>app.form.registration.firstName</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="BEQrotz" resname="app.form.registration.phone">
+        <source>app.form.registration.phone</source>
+        <target>Téléphone</target>
+      </trans-unit>
+      <trans-unit id="kryn4yl" resname="app.form.registration.company">
+        <source>app.form.registration.company</source>
+        <target>Raison sociale</target>
+      </trans-unit>
+      <trans-unit id="MtGM1Ju" resname="app.form.registration.address">
+        <source>app.form.registration.address</source>
+        <target>Addresse</target>
+      </trans-unit>
+      <trans-unit id="7NYrvof" resname="app.form.registration.postalCode">
+        <source>app.form.registration.postalCode</source>
+        <target>Code postal</target>
+      </trans-unit>
+      <trans-unit id="GIQNrAo" resname="app.form.registration.city">
+        <source>app.form.registration.city</source>
+        <target>Ville</target>
+      </trans-unit>
+      <trans-unit id="o8_CfNB" resname="app.form.registration.country">
+        <source>app.form.registration.country</source>
+        <target>Pays</target>
+      </trans-unit>
+      <trans-unit id="uwOgZSb" resname="app.form.registration.siret">
+        <source>app.form.registration.siret</source>
+        <target>Siret</target>
+      </trans-unit>
+      <trans-unit id="PP.yehR" resname="app.form.registration.submit">
+        <source>app.form.registration.submit</source>
+        <target>Valider</target>
+      </trans-unit>
+      <trans-unit id="m.1eljQ" resname="app.form.registration.confirm">
+        <source>app.form.registration.confirm</source>
+        <target>Votre compte a bien été confirmé. Vous pouvez à présent vous identifier.</target>
+      </trans-unit>
+      <trans-unit id="BFAyRzb" resname="app.form.reset.title">
+        <source>app.form.reset.title</source>
+        <target>Réinitialiser votre mot de passe</target>
+      </trans-unit>
+      <trans-unit id="6yCPwSf" resname="app.form.reset.email">
+        <source>app.form.reset.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="gpZoWLh" resname="app.form.reset.username">
+        <source>app.form.reset.username</source>
+        <target>Identifiant</target>
+      </trans-unit>
+      <trans-unit id="mnRLPhU" resname="app.form.reset.newPassword">
+        <source>app.form.reset.newPassword</source>
+        <target>Saisissez votre nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="puEiVUo" resname="app.form.reset.confirmPassword">
+        <source>app.form.reset.confirmPassword</source>
+        <target>Confirmez votre nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="cAhyk8z" resname="app.form.reset.submit">
+        <source>app.form.reset.submit</source>
+        <target>Valider</target>
+      </trans-unit>
+      <trans-unit id="lGhdA_D" resname="app.form.reset.confirmUpdate">
+        <source>app.form.reset.confirmUpdate</source>
+        <target>Votre mot de passe a bien été modifié</target>
+      </trans-unit>
+      <trans-unit id="dvJklh7" resname="app.form.edit.oldPassword">
+        <source>app.form.edit.oldPassword</source>
+        <target>Entrer votre mot de passe actuel</target>
+      </trans-unit>
+      <trans-unit id="c_3_Vwb" resname="app.form.edit.plainPassword">
+        <source>app.form.edit.plainPassword</source>
+        <target>Entrer un nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="Gkxg1cw" resname="app.form.edit.secondPassword">
+        <source>app.form.edit.secondPassword</source>
+        <target>Répété le nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="7sRSyeX" resname="app.form.login.userName">
+        <source>app.form.login.userName</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="MhxWnqP" resname="app.form.login.password">
+        <source>app.form.login.password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="MKJULN8" resname="app.form.login.submit">
+        <source>app.form.login.submit</source>
+        <target>Valider</target>
+      </trans-unit>
+      <trans-unit id="c6BEXXh" resname="app.form.submission.firstName">
+        <source>app.form.submission.firstName</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="MyIjCXf" resname="app.form.submission.lastName">
+        <source>app.form.submission.lastName</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="8G7vn1d" resname="app.form.submission.email">
+        <source>app.form.submission.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="qA5PLFt" resname="app.form.submission.message">
+        <source>app.form.submission.message</source>
+        <target>Message</target>
+      </trans-unit>
+      <trans-unit id="Ztjrkhq" resname="app.form.submission.save">
+        <source>app.form.submission.save</source>
+        <target>Enregister</target>
+      </trans-unit>
+      <trans-unit id="n5kGsJT" resname="app.form.incident.lastName">
+        <source>app.form.incident.lastName</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="JKf9K1q" resname="app.form.incident.firstName">
+        <source>app.form.incident.firstName</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="tTR1v31" resname="app.form.incident.society">
+        <source>app.form.incident.society</source>
+        <target>Société</target>
+      </trans-unit>
+      <trans-unit id="fAGA4nR" resname="app.form.incident.description">
+        <source>app.form.incident.description</source>
+        <target>Description de l'incident</target>
+      </trans-unit>
+      <trans-unit id="5Ev.MQ5" resname="app.form.cart.delivery">
+        <source>app.form.cart.delivery</source>
+        <target>Livraison</target>
+      </trans-unit>
+      <trans-unit id="gd4p7ed" resname="app.form.cart.location">
+        <source>app.form.cart.location</source>
+        <target>Location</target>
+      </trans-unit>
+      <trans-unit id="6272fKL" resname="app.form.cart.startDate">
+        <source>app.form.cart.startDate</source>
+        <target>Début de la location</target>
+      </trans-unit>
+      <trans-unit id="ToNf.qY" resname="app.form.cart.endDate">
+        <source>app.form.cart.endDate</source>
+        <target>Fin de bail</target>
+      </trans-unit>
+      <trans-unit id="ceMGAT_" resname="app.flash.updatePassword">
+        <source>app.flash.updatePassword</source>
+        <target>Votre mot de passe a bien été mis à jour</target>
+      </trans-unit>
+      <trans-unit id="T9fR7XG" resname="app.flash.updatePasswordError">
+        <source>app.flash.updatePasswordError</source>
+        <target>Une erreur s'est produite lors de la mise à jour de votre mot passe</target>
+      </trans-unit>
+      <trans-unit id="9LYfYdu" resname="app.flash.subscriptionNewsletter">
+        <source>app.flash.subscriptionNewsletter</source>
+        <target>Votre inscription à la newsletter a bien été prise en compte.</target>
+      </trans-unit>
+      <trans-unit id="BH3g8fd" resname="app.flash.closeIncident">
+        <source>app.flash.closeIncident</source>
+        <target>L'incident a bien été cloturé</target>
+      </trans-unit>
+      <trans-unit id="DqFU.4W" resname="validator.user.password">
+        <source>validator.user.password</source>
+        <target>Mot non conform</target>
+      </trans-unit>
+      <trans-unit id="BM63zlg" resname="app.learn_more">
+        <source>app.learn_more</source>
+        <target>__app.learn_more</target>
+      </trans-unit>
+      <trans-unit id="6AXAvQH" resname="app.ask_quote">
+        <source>app.ask_quote</source>
+        <target>__app.ask_quote</target>
+      </trans-unit>
+      <trans-unit id="z7o39PQ" resname="app.label.product_delete">
+        <source>app.label.product_delete</source>
+        <target>__app.label.product_delete</target>
+      </trans-unit>
+      <trans-unit id="Vg3ZM5U" resname="mail.report_supplementary.subject">
+        <source>mail.report_supplementary.subject</source>
+        <target>__mail.report_supplementary.subject</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

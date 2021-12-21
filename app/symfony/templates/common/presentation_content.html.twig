@@ -1,0 +1,68 @@
+<section class="presentation padding-top-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 animate fadeInLeft">
+                <aside>
+                    <ul class="left-nav">
+                        {% for presentation in presentations %}
+                            <li>
+                                <a class="{% if active_presentation.id == presentation.id %} active {% endif %}"
+                                   href="{{ path('presentation_details', {slug: presentation.slug}) }}">
+                                    {{ presentation.title }}
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="help-widget">
+                        <h5>Comment pouvons-nous vous aider?</h5>
+                        <p>Bms consulting</p>
+                        <a href="{{ path('contact') }}" class="btn btn-primary btn-white get-in-touch"
+                           data-text="Contact">
+                            <i class="icon-telephone114"></i>
+                            Contact
+                        </a>
+                    </div>
+                    <a href="#." class="company-presentation-link">
+                        <i class="icon-file-pdf-o"></i>
+                        Nos presentation en pdf
+                    </a>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <h5>Témoignages</h5>
+                            <p></p>
+                        </div>
+                        <div class="testimonials-author">
+                            {# {% if app.user %}
+                                <img class="img-circle" src="#" alt="">
+                                <p>{{ app.user.username }}<span>{{ app.user.username }}</span></p>
+                            {% else %}
+                                <img class="img-circle" src="{{ asset('images/bmsconsulting/author.jpg') }}" alt="">
+                                <p>Boris Hunt<span>Responsable commercial</span></p>
+                            {% endif %} #}
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-md-8 animate fadeInRight">
+                <div class="single-item-carousel classic-arrows2 owl-carousel">
+                    {% if active_presentation and active_presentation.medias is not null %}
+                        {% for media in active_presentation.medias %}
+                            <img src="{{ asset('upload_medias/'~ media.image) }}" alt="">
+                        {% endfor %}
+                    {% endif %}
+                    {% if active_presentation.medias is  not null %}
+                        <img src="{{ asset('images/bmsconsulting/bms-consulting-singlepage.jpg') }}" alt="">
+                    {% endif %}
+                </div>
+                <br>
+                <br>
+                {% if active_presentation %}
+                    <p>{{ active_presentation.content|raw }} </p>
+                {% endif %}
+                <div class="height-20"></div>
+
+            </div>
+        </div>
+    </div>
+</section>

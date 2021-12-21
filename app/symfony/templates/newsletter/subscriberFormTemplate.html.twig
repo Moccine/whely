@@ -1,0 +1,9 @@
+<p class="subscribe_success" id="subscribe_success" style="display:none;"></p>
+<p class="subscribe_error" id="subscribe_error" style="display:none;"></p>
+
+                        {{ form_start(newsLetterForm, {'attr':{'id': 'subscribe_form',  }}) }}
+                        {{ form_row(newsLetterForm.name) }}
+                        {{ form_row(newsLetterForm.email) }}
+
+<button class="btn btn-primary" name="S'abonner" type="button" data-text="S'abonner">S'abonner</button>
+{{ form_end(newsLetterForm) }}
