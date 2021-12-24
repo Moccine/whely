@@ -3,26 +3,26 @@
         <div class="row">
             <div class="col col-md-5">
                 <div class="img-holder about-image">
-                    <img src="assets/images/about-s2.jpg" alt>
+                    <img src="{{ asset('whelly/assets/images/about-s2.jpg') }}" alt>
                 </div>
             </div>
             <div class="col col-md-7">
                 <div class="about-details">
                     <div class="section-title">
-                        <span>A propos</span>
-                        <h2>Moderne & Puissant <span>Whelly service</span></h2>
+                        <span>{{ 'whelly.section.about_us.about'|trans }}</span>
+                        <h2>{{ 'whelly.section.about_us.h2_title_1'|trans }} <span>{{ 'whelly.section.about_us.h2_title_2'|trans }}</span></h2>
                     </div>
                     <div class="details">
-                        <p>WELHY est constituée au tour d’une équipe<strong>professionnelle et dynamique</strong>capitalisant une riche expérience à différents niveaux de responsabilités dans de grands groupes tant en Afrique que dans le reste du monde</p>
+                        <p>{{ 'whelly.section.about_us.description'|trans|raw }}</p>
                         <ul>
-                            <li><i class="ti-arrow-circle-right"></i> Les services de petite maintenance et réparation (menuiserie, plomberie...) ; </li>
-                            <li><i class="ti-arrow-circle-right"></i> Les services de conciergerie ( coursiers, </li>
-                            <li><i class="ti-arrow-circle-right"></i> Les services d’Entretien et de Nettoyage des locaux ;  </li>
+                            <li><i class="ti-arrow-circle-right"></i> {{ 'whelly.section.about_us.list.service_1'|trans|raw }} </li>
+                            <li><i class="ti-arrow-circle-right"></i>  {{ 'whelly.section.about_us.list.service_2'|trans|raw }}  </li>
+                            <li><i class="ti-arrow-circle-right"></i>   {{ 'whelly.section.about_us.list.service_3'|trans|raw }}  </li>
                         </ul>
                     </div>
                     <div class="ceo-quote">
                         <blockquote>
-                            <span>- Adam ( Notre plombier )</span>
+                            <span>- {{ 'whelly.section.about_us.ceo_quote'|trans}} </span>
                         </blockquote>
                     </div>
                 </div>

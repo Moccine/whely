@@ -5,18 +5,15 @@
                 <div class="col col-lg-3 col-md-3 col-sm-6">
                     <div class="widget about-widget">
                         <div class="logo widget-title">
-                            <h3>A propos</h3>
+                            <h3>{{ 'whelly.section.footer.widget.about.title'|trans }}</h3>
                         </div>
-                        <p>Dans une recherche constante de solutions innovantes, l’ambition de Welhy est d’apporter le
-                            bien-être aux entreprises dans leur environnement de travail et aux particuliers dans leur
-                            tâche quotidienne. Notre vision de se bien-être consiste à apporter les services supports de
-                            qualité aux équipes pour les accompagner dans la réalisation de leurs objectifs. /p>
+                        <p>{{ 'whelly.section.footer.widget.about.text'|trans }}</p>
                         <div class="social">
                             <ul>
-                                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                                <li><a href="{{ 'whelly.section.footer.widget.social.facebook'|trans }}"><i class="ti-facebook"></i></a></li>
+                                <li><a href="{{ 'whelly.section.footer.widget.social.twitter'|trans }}"><i class="ti-twitter-alt"></i></a></li>
+                                <li><a href="{{ 'whelly.section.footer.widget.social.twitter'|trans }}"><i class="ti-twitter"></i></a></li>
+                                <li><a href="{{ 'whelly.section.footer.widget.social.pinterest'|trans }}"><i class="ti-pinterest"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -24,45 +21,47 @@
                 <div class="col col-lg-3 col-md-3 col-sm-6">
                     <div class="widget link-widget">
                         <div class="widget-title">
-                            <h3>Liens importants</h3>
+                            <h3> {{ 'whelly.section.footer.widget.link.title'|trans }}</h3>
                         </div>
                         <ul>
-                            <li><a href="{{ path('whelly_about_us') }}">A propos</a></li>
+                            <li><a href="{{ path('whelly_about_us') }}">{{ 'whelly.section.footer.widget.link.about'|trans }}</a></li>
                             <li><a href="">L'equipe</a></li>
-                            <li><a href="{{ path('whelly_project') }}">Services</a></li>
-                            <li><a href="{{ path('whelly_contact') }}">Contact</a></li>
+                            <li><a href="{{ path('whelly_project') }}">{{ 'whelly.section.footer.widget.link.services'|trans }}</a></li>
+                            <li><a href="{{ path('whelly_contact') }}">{{ 'whelly.section.footer.widget.link.contact'|trans }}</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Politique de confidentialité</a></li>
-                            <li><a href="#">Foire aux questions</a></li>
-                            <li><a href="{{ path('whelly_news') }}">Nouvelles</a></li>
-                            <li><a href="#">Témoignages</a></li>
+                            <li><a href="#">{{ 'whelly.section.footer.widget.link.privacy_policy'|trans }}</a></li>
+                            <li><a href="#">{{ 'whelly.section.footer.widget.link.faq'|trans }}</a></li>
+                            <li><a href="{{ path('whelly_news') }}">{{ 'whelly.section.footer.widget.link.news'|trans }}</a></li>
+                            <li><a href="#">{{ 'whelly.section.footer.widget.link.testimonials'|trans }}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col col-lg-3 col-md-3 col-sm-6">
                     <div class="widget contact-widget service-link-widget">
                         <div class="widget-title">
-                            <h3>Adresse</h3>
+                            <h3>{{ 'whelly.section.footer.widget.address.title'|trans }}</h3>
                         </div>
                         <ul>
-                            <li>{{ 'whelly.address'|trans }}n</li>
-                            <li>Télephone : {{ 'whelly.phone_1'|trans }}</li>
-                            <li>Télephone : {{ 'whelly.phone_2'|trans }}</li>
-                            <li>horaire: 8h- 19h du lun-ven</li>
-                            <li>Email: {{ 'whelly.mail'|trans }}</li>
+                            <li>{{ 'whelly.address'|trans }}</li>
+                            <li>{{ 'whelly.section.footer.widget.address.phone'|trans }} : {{ 'whelly.phone_1'|trans }}</li>
+                            <li>{{ 'whelly.section.footer.widget.address.phone'|trans }} : {{ 'whelly.phone_2'|trans }}</li>
+                            <li>{{ 'whelly.section.footer.widget.address.horaire'|trans }}: {{ 'whelly.open_time'|trans }}</li>
+                            <li>{{ 'whelly.section.footer.widget.address.Email'|trans }}: {{ 'whelly.mail'|trans }}</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col col-lg-3 col-md-3 col-sm-6">
                     <div class="widget newsletter-widget">
                         <div class="widget-title">
-                            <h3>Newsletter</h3>
+                            <h3>{{ 'whelly.section.footer.widget.newslletter.title'|trans }}</h3>
                         </div>
-                        <p>Etre au courant de nos activités.</p>
+                        <p>{{ 'whelly.section.footer.widget.newslletter.text'|trans }}</p>
                         <form>
                             <div class="input-1">
-                                <input type="email" class="form-control" placeholder="Email Address *" required>
+                                <label>
+                                    <input type="email" class="form-control" placeholder="Email*" required>
+                                </label>
                             </div>
                             <div class="submit clearfix">
                                 <button type="submit"><i class="ti-email"></i></button>

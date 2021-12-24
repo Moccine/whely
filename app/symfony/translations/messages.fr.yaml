@@ -1,89 +1,8 @@
-app:
-  name: 'Bms consulting'
-  phone: '+224 669 26 31 85'
-  tel: '+224 669 38 45 06'
-  email: 'contact@bmsconsulting-gn.com'
-  website: 'www.bmsconsulting-gn.com'
-  menu:
-    home: 'Accueil'
-    about_us: 'Qui somme nou ?'
-    service: 'Service'
-    service_it: 'Services IT'
-    contact: 'Contact'
-    actuality: 'Actualités'
-    contact_us: 'Nous contacter'
-  paragraph:
-    read_more: 'Lire la suite'
-  company:
-    address_complete: '<span>Pont de kaporo, carrefour conteyah Conakry</span>'
-    address_complete2: '<span>Nongo commune de Ratoma Conakry</span>'
-    address: 'Commune de Kaloum, Conakry, Guinée'
-    postal_code: ''
-    city: 'Pont de kaporo carrefour conteyah'
-    city2: 'Conakry'
-    country: 'Guinée'
-    description: 'Bmsconsulting Formation, cabinet d''études, réseaux et télécoms, gestion d''entreprise, système d''information, fournitures informatique'
-  form:
-    registration:
-      userName: 'Email'
-      plainPassword: 'Mot de passe'
-      secondPassword: 'Confirmation du mot de passe'
-      identicalPassword: 'Les mots de passes saisi ne sont pas identiques'
-      password_not_identical: 'Mot de passe non identique'
-      lastName: 'Nom'
-      firstName: 'Prénom'
-      phone: 'Téléphone'
-      company: 'Raison sociale'
-      address: 'Addresse'
-      postalCode: 'Code postal'
-      city: 'Ville'
-      country: 'Pays'
-      siret: 'Siret'
-      submit: 'Valider'
-      confirm: 'Votre compte a bien été confirmé. Vous pouvez à présent vous identifier.'
-    reset:
-      title: 'Réinitialiser votre mot de passe'
-      email: 'Email'
-      username: 'Identifiant'
-      newPassword: 'Saisissez votre nouveau mot de passe'
-      confirmPassword: 'Confirmez votre nouveau mot de passe'
-      submit: 'Valider'
-      confirmUpdate: 'Votre mot de passe a bien été modifié'
-    edit:
-      oldPassword: 'Entrer votre mot de passe actuel'
-      plainPassword: 'Entrer un nouveau mot de passe'
-      secondPassword: 'Répété le nouveau mot de passe'
-    login:
-      userName: 'Email'
-      password: 'Mot de passe'
-      submit: 'Valider'
-    submission:
-      firstName: 'Nom'
-      lastName: 'Prénom'
-      email: 'Email'
-      message: 'Message'
-      save: 'Enregister'
-    incident:
-      lastName: 'Nom'
-      firstName: 'Prénom'
-      society: 'Société'
-      description: 'Description de l''incident'
-    cart:
-      delivery: 'Livraison'
-      location: 'Location'
-      startDate: 'Début de la location'
-      endDate: 'Fin de bail'
-  flash:
-    updatePassword: 'Votre mot de passe a bien été mis à jour'
-    updatePasswordError: 'Une erreur s''est produite lors de la mise à jour de votre mot passe'
-    subscriptionNewsletter: 'Votre inscription à la newsletter a bien été prise en compte.'
-    closeIncident: 'L''incident a bien été cloturé'
-
 validator:
   user:
     password: 'Mot non conforme'
 
- ############################################### Whelly #######################
+  ############################################### Whelly #######################
 whelly:
   name: 'Whelly'
   mail: ' Contact@welhy.com'
@@ -91,5 +10,97 @@ whelly:
   phone_2: '669 79 79 79'
   address: 'Kaporo, Commune de Ratoma, BP 3141 Conakry Rep. de Guinée.'
   site_web: 'www.welhy.com'
-  open_time: 'lundi - vendredi 9h - 18h<'
-  menu:
+  open_time: 'lun - ven 9h - 18h'
+  section:
+    about_us:
+      about: 'A propos'
+      h2_title_1: 'Moderne & Puissant'
+      h2_title_2: 'Whelly service'
+      description: 'WELHY est constituée au tour d’une équipe <strong> professionnelle et dynamique </strong> capitalisant une riche expérience à différents niveaux de responsabilités dans de grands groupes tant en Afrique que dans le reste du monde'
+      list:
+        service_1 : 'Les services de petite maintenance et réparation (menuiserie, plomberie...) ;'
+        service_2 : 'Les services de conciergerie ( coursiers,..)'
+        service_3 : 'Les services d’Entretien et de Nettoyage des locaux ;'
+      ceo_quote: ' Adam (Notre plombier )'
+    blog:
+      title_1: 'Les dernières nouvelles'
+      title_2_1: 'Quoi de neuf'
+      title_2_2: 'sur notre Site'
+      title_text: 'Nos prochaines activités touristique.'
+      view_all: 'Voir tout'
+    contact:
+      image_text1: '500+'
+      image_text2: 'Rappellez-nous'
+      contact_us:
+        title: 'Nous contacter'
+        text_1: 'vous pouvez nous contacter,'
+        text_2: 'pour vos questions'
+      form:
+        placeholder:
+          email: 'Email*'
+          phone: 'Téléphone*'
+          name: 'Nom*'
+          object: 'Objet de votre demande*'
+          desciption: 'Contenu de sa demande *'
+        submit: 'Envoyer'
+        success: 'Merci'
+        error: 'Une erreur s''est produite lors de l''envoi de l''e-mail. Veuillez réessayer plus tard. '
+    features:
+        grid_1:
+          title: '01. Catering – Restauration collective'
+          text: 'Nous vous proposons des services de restauration allant de la cafétéria, au restaurant d’entreprise, en passant par la restauration événementielle.. '
+        grid_2:
+          title: '02. Gestion de l’hébergement'
+          text: 'De l’aéroport au lieu de travail, nous vous proposons une gamme de services complète comprenant l’Accueil, l’hébergement, et le transport.'
+        grid_3:
+          title: '03.Services de nettoyage des locaux (bureaux et domiciles)'
+          text: 'Comptez sur nous, pour la gestion, l’entretien et la maintenance de l‘ensemble de vos espaces professionnels.'
+        grid_4:
+          title: '04. Services de buanderie'
+          text: 'Que ça soit sur site ou chez vous, nous vous proposons un service de buanderie sur mesure de qualité pour répondre à votre besoin.'
+    footer:
+          widget:
+            about:
+              title: 'A propos'
+              text: 'Dans une recherche constante de solutions innovantes, l’ambition de Welhy est d’apporter le
+                bien-être aux entreprises dans leur environnement de travail et aux particuliers dans leur
+                tâche quotidienne. Notre vision de se bien-être consiste à apporter les services supports de
+                qualité aux équipes pour les accompagner dans la réalisation de leurs objectifs.'
+              social:
+                facebook: '#'
+                twitter: '#'
+                linkedin: '#'
+                pinterest: '#'
+            link:
+              title: 'Liens importants'
+              about: 'A propos'
+              services: 'Services'
+              contact: 'Contact'
+              temp: 'L''equipe'
+              privacy_policy: 'Politique de confidentialité'
+              faq: 'Foire aux questions'
+              news: 'Foire aux questions'
+              testimonials: 'Témoignages'
+            address:
+              title: 'Adresse'
+              phone: 'Télephone'
+              horaire: 'Horaire'
+              Email: 'Email'
+            newslletter:
+              title: 'Newsletter'
+              text: 'Etre au courant de nos activités.'
+    header:
+      menu:
+        home: 'Accueil'
+        about: 'Qui sommes nous'
+        offers: 'Offres'
+        project: 'Projet'
+        projects: 'Projets'
+        news: 'News'
+        contact: 'Contact'
+
+
+
+
+
+

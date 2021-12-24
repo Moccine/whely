@@ -4,9 +4,9 @@
             <div class="col col-md-6">
                 <div class="left-col">
                     <div class="img-holder">
-                        <img src="assets/images/conctact.jpg" alt="whely contct">
+                        <img src="{{ asset('whelly/assets/images/conctact.jpg') }}" alt="whely contact">
                         <div class="call-back">
-                            <h3>500+</h3><span>rappelle-nous</span>
+                            <h3>{{ 'whelly.section.contact.image_text1'|trans }}</h3><span>{{ 'whelly.section.contact.image_text2'|trans }}</span>
                         </div>
                     </div>
                 </div>
@@ -14,34 +14,34 @@
             <div class="col col-md-6">
                 <div class="contact-form">
                     <div class="section-title">
-                        <span>Nous contacter</span>
-                        <h2>vous pouvez nous contacter, <span>pour vos questions</span></h2>
+                        <span>{{ 'whelly.section.contact.contact_us.title'|trans }}</span>
+                        <h2> {{ 'whelly.section.contact.contact_us.text_1'|trans }}<span>{{ 'whelly.section.contact.contact_us.text_2'|trans }}</span></h2>
                     </div>
                     <form method="post" class="contact-validation-active" id="contact-form-main2">
                         <div>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name*" value="nom">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="{{ 'whelly.section.contact.form.placeholder.name'|trans }}" value="">
                         </div>
                         <div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email*" value="prenom@gmail.com">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="{{ 'whelly.section.contact.form.placeholder.email'|trans }}" value="">
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone*" value="3370186892">
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="{{ 'whelly.section.contact.form.placeholder.phone'|trans }}*" value="">
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="phone" id="object" placeholder="Objet de votre demande*" value="">
+                            <input type="text" class="form-control" name="object" id="object" placeholder="" value="">
                         </div>
                         <div class="fullwidth">
-                            <textarea class="form-control" name="note"  id="note" placeholder="Case Description..." value="ma demande"></textarea>
+                            <textarea class="form-control" name="note"  id="note" placeholder="{{ 'whelly.section.contact.form.placeholder.desciption'|trans }}" value=""></textarea>
                         </div>
                         <div class="submit-area">
-                            <button type="submit" class="submit-btn">Envoyer</button>
+                            <button type="submit" class="submit-btn">{{ 'whelly.section.contact.form.submit'|trans }}</button>
                             <div id="loader">
                                 <i class="ti-reload"></i>
                             </div>
                         </div>
                         <div class="clearfix error-handling-messages">
-                            <div id="success">Merci</div>
-                            <div id="error"> Une erreur s'est produite lors de l'envoi de l'e-mail. Veuillez réessayer plus tard. </div>
+                            <div id="success">{{ 'whelly.section.contact.form.success'|trans }}</div>
+                            <div id="error"> {{ 'whelly.section.form.error'|trans }} </div>
                         </div>
                     </form>
                 </div>

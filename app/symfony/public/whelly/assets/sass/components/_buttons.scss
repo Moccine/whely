@@ -1,5 +1,3 @@
-$theme-primary-color: #7ab54d;
-
 .theme-btn {
 	background-color: $theme-primary-color;
 	font-size: 12px;
@@ -29,7 +27,7 @@ $theme-primary-color: #7ab54d;
 
 	&:after {
 		content: "";
-		background: #ff7070;
+		background: #7ab54d;
 		width: 1px;
 		height: 100%;
 		position: absolute;
@@ -71,12 +69,12 @@ $theme-primary-color: #7ab54d;
 	}
 
 	&:hover:after {
-		background: #ff7070;
+		background: #7ab54d;
 	}
 
-	// &:hover {
-	// 	background-color: 
-	// }
+	 &:hover {
+		background-color: #7ab54d
+	 }
 }
 
 .submit-btn {

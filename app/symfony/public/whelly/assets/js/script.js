@@ -552,16 +552,17 @@
             },
 
             messages: {
-                name: "Please enter your name",
-                email: "Please enter your email address",
-                phone: "Please enter your phone number",
-                subject: "Please select your contact subject"
+                name: "Nom obligatoire",
+                email: "Email obligatoire",
+                phone: "Téléphone obligatoire",
+                subject: "Champ obligatoire"
             },
 
             submitHandler: function (form) {
+                console.log(form)
                 $.ajax({
                     type: "POST",
-                    url: "mail-contact.php",
+                    url: "/whelly/send/mail",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
