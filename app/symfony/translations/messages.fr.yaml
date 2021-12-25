@@ -89,6 +89,10 @@ whelly:
             newslletter:
               title: 'Newsletter'
               text: 'Etre au courant de nos activités.'
+            short_link:
+              private_life: 'Vie privée'
+              terms_of_use: 'Conditions d''utilisation'
+              cookies: 'Cookies'
     header:
       menu:
         home: 'Accueil'
@@ -98,6 +102,87 @@ whelly:
         projects: 'Projets'
         news: 'News'
         contact: 'Contact'
+        quote_request: 'Demande de devis'
+    latest_project:
+        title1: 'Nos projets'
+        title2_1: 'Voir nos projets'
+        title2_2: 'Client'
+        grid1:
+          title: 'Asian Industrial Project'
+          text: 'Industry, Corporate'
+        grid2:
+          title: 'Asian Industrial Project'
+          text: 'Industry, Corporate'
+        grid3:
+          title: 'Asian Industrial Project'
+          text: 'Industry, Corporate'
+        grid4:
+          title: 'Asian Industrial Project'
+          text: 'Industry, Corporate'
+        grid5:
+          title: 'Asian Industrial Project'
+          text: 'Industry, Corporate'
+    services:
+          title1: 'Services'
+          title2_1: 'Nos prestations'
+          title2_2: 'A votre service'
+          grid1:
+            title: 'Catering – Restauration collective'
+            text: 'Recently cut out of an illustrated magine and housed indust'
+          grid2:
+            title: 'Gestion de l''hébergement'
+            text: 'Recently cut out of an illustrated magine and housed indust'
+          grid3:
+            title: 'Services de nettoyage des locaux (bureaux et domiciles)'
+            text: 'Recently cut out of an illustrated magine and housed indust'
+          grid4:
+            title: 'Services de buanderie'
+            text: 'Recently cut out of an illustrated magine and housed indust'
+          grid5:
+            title: 'Gestion et entretien des équipements (Facility management)'
+            text: 'Recently cut out of an illustrated magine and housed indust'
+          grid6:
+            title: 'Entretien des espaces verts'
+            text: 'Recently cut out of an illustrated magine and housed indust'
+    slider:
+      to_book: 'Reserver'
+      contact_us: 'Nous contacter'
+      slider1:
+        title1_1: 'Service de support'
+        title1_2: 'aux entreprises'
+      slider2:
+        title1_1: 'Service de support'
+        title1_2: 'aux entreprises'
+      slider3:
+        title1_1: 'Tourisme et'
+        title1_2: 'loisir'
+    team:
+        title1_1: 'Notre équipe'
+        title1_2: 'Pour votre service'
+        grid1:
+          facebook: '#'
+          twitter: '#'
+          linkedin: '#'
+          pinterest: '#'
+          details:
+            title: 'Falilou Bah'
+            text: 'Directeur général'
+    why_choose_us:
+            title1: 'Pourquoi nous choisir'
+            title2_1: 'Pourquoi nous choisir'
+            title2_2: 'dans l''accompagnement d''entrepris'
+            text: Welhy a pour ambition de fournir aux entreprises operant en Guinée,
+              une gamme complete de services allant de l''acceuil à l’arrivée aux services sur sites.
+              Nous accompagnons nos clients dès la manifestion de leur intention de venir en Guinée.
+              A cet effet, Welhy apporte des solutions comprenant'
+            skills:
+              skill1: 'Service de support aux entreprises'
+              skill2: 'Service aux particuliers'
+              skill3: 'Construction'
+              skill4: 'Tourisme et loisir'
+
+
+
 
 
 

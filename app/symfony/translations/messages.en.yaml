@@ -1,0 +1,190 @@
+validator:
+  user:
+    password: 'Mot non conforme'
+
+  ############################################### Whelly #######################
+whelly:
+  name: 'Whelly'
+  mail: ' Contact@welhy.com'
+  phone_1: '626 26 26 58'
+  phone_2: '669 79 79 79'
+  address: 'Kaporo, Commune de Ratoma, BP 3141 Conakry Rep. de Guinée.'
+  site_web: 'www.welhy.com'
+  open_time: 'lun - ven 9h - 18h'
+  section:
+    about_us:
+      about: 'About'
+      h2_title_1: 'Modern & Powerful'
+      h2_title_2: 'Whelly service'
+      description: 'WELHY is made up of a <strong> professional and dynamic </strong> team capitalizing on a rich experience at different levels of responsibility in large groups both in Africa and in the rest of the world.'
+      list:
+        service_1 : 'Minor maintenance and repair services (carpentry, plumbing, etc.);'
+        service_2 : 'Concierge services (couriers, etc.)'
+        service_3 : 'The maintenance and cleaning services of the premises;'
+      ceo_quote: ' Adam (Our plumber) '
+    blog:
+      title_1: 'The last news'
+      title_2_1: 'What''s new'
+      title_2_2: 'on our Site'
+      title_text: 'Our next tourist activities.'
+      view_all: 'View all'
+    contact:
+      image_text1: '500+'
+      image_text2: 'Call us back'
+      contact_us:
+        title: 'Contact us'
+        text_1: 'you can contact us,'
+        text_2: 'for your questions'
+      form:
+        placeholder:
+          email: 'Email *'
+          phone: 'Phone *'
+          name: 'Name *'
+          object: 'Subject of your request *'
+          desciption: 'Content of his request *'
+        submit: 'Submit'
+        success: 'Thank you'
+        error: 'An error occurred while sending the email. Please try again later. '
+    features:
+      grid_1:
+        title: '01. Catering - Collective catering '
+        text: 'We offer catering services ranging from the cafeteria, to the company restaurant, including event catering.'
+      grid_2:
+        title: '02. Accommodation management '
+        text: 'From the airport to the workplace, we offer a full range of services including reception, accommodation, and transportation.'
+      grid_3:
+        title: '03. Premises cleaning services (offices and homes) '
+        text: 'Count on us for the management, upkeep and maintenance of all your professional spaces.'
+      grid_4:
+        title: '04. Laundry services '
+        text: 'Whether on site or at your home, we offer you a quality tailor-made laundry service to meet your needs.'
+    footer:
+      widget:
+        about:
+          title: 'About'
+          text: 'In a constant search for innovative solutions, Welhy''s ambition is to provide
+                  well-being to companies in their working environment and to individuals in their
+                  daily task. Our vision of well-being consists in providing support services for
+                  quality to the teams to support them in achieving their objectives. '
+          social:
+            Facebook: '#'
+            twitter: '#'
+            linkedin: '#'
+            pinterest: '#'
+        link:
+          title: 'Important links'
+          about: 'About'
+          services: 'Services'
+          contact: 'Contact'
+          temp: 'The team'
+          privacy_policy: 'Privacy policy'
+          faq: 'Frequently asked questions'
+          news: 'Frequently asked questions'
+          testimonials: 'Testimonials'
+        address:
+          title: 'Address'
+          phone: 'Phone'
+          schedule: 'Schedule'
+          Email: 'Email'
+        newslet:
+          title: 'Newsletter'
+          text: 'Be aware of our activities.'
+        short_link:
+          private_life: 'Privacy'
+          terms_of_use: 'Terms of use'
+          cookies: 'Cookies'
+    header:
+      menu:
+        home: 'Home'
+        about: ' About'
+        offers: 'Offers'
+        project: 'Project'
+        projects: 'Projects'
+        news: 'News'
+        contact: 'Contact'
+        quote_request: 'Demande de devis'
+    latest_project:
+      title1: 'Our projects'
+      title2_1: 'See our projects'
+      title2_2: 'Client'
+      grid1:
+        title: 'Asian Industrial Project'
+        text: 'Industry, Corporate'
+      grid2:
+        title: 'Asian Industrial Project'
+        text: 'Industry, Corporate'
+      grid3:
+        title: 'Asian Industrial Project'
+        text: 'Industry, Corporate'
+      grid4:
+        title: 'Asian Industrial Project'
+        text: 'Industry, Corporate'
+      grid5:
+        title: 'Asian Industrial Project'
+        text: 'Industry, Corporate'
+    services:
+      title1: 'Services'
+      title2_1: 'Our services'
+      title2_2: 'At your service'
+      grid1:
+        title: 'Catering - Collective catering'
+        text: 'Recently cut out of an illustrated magine and housed indust'
+      grid2:
+        title: 'Accommodation management'
+        text: 'Recently cut out of an illustrated magine and housed indust'
+      grid3:
+        title: 'Cleaning services for premises (offices and homes)'
+        text: 'Recently cut out of an illustrated magine and housed indust'
+      grid4:
+        title: 'Laundry services'
+        text: 'Recently cut out of an illustrated magine and housed indust'
+      grid5:
+        title: 'Equipment management and maintenance (Facility management)'
+        text: 'Recently cut out of an illustrated magine and housed indust'
+      grid6:
+        title: 'Maintenance of green spaces'
+        text: 'Recently cut out of an illustrated magine and housed indust'
+    slider:
+      to_book: 'Book'
+      contact_us: 'Contact us'
+      slider1:
+        title1_1: 'Support service'
+        title1_2: 'to companies'
+      slider2:
+        title1_1: 'Support service'
+        title1_2: 'to companies'
+      slider3:
+        title1_1: 'Tourism and'
+        title1_2: 'leisure'
+    team:
+      title1_1: 'Our team'
+      title1_2: 'For your service'
+      grid1:
+        Facebook: '#'
+        twitter: '#'
+        linkedin: '#'
+        pinterest: '#'
+        details:
+          title: 'Falilou Bah'
+          text: 'Managing Director'
+    why_choose_us:
+      title1: 'Why choose us'
+      title2_1: 'Why choose us'
+      title2_2: 'in supporting companies'
+      text: Welhy aims to provide companies operating in Guinea,
+        a full range of services from reception on arrival to on-site services.
+        We support our clients as soon as they express their intention to come to Guinea.
+        To this end, Welhy provides solutions including '
+      skills:
+        skill1: 'Business support service'
+        skill2: 'Service to individuals'
+        skill3: 'Construction'
+        skill4: 'Tourism and leisure'
+
+
+
+
+
+
+
+

@@ -17,6 +17,7 @@ class IndexController extends AbstractController
 */
     public function wellyIndex(Request  $request): Response
     {
+      dump($request);
         return $this->render('whelly/index.html.twig', [
         ]);
     }
@@ -65,7 +66,7 @@ class IndexController extends AbstractController
    */
   public function wellySendMail(Request  $request): Response
   {
-
+    dd($request);
 
     return $this->redirectToRoute('whelly_index');
   }

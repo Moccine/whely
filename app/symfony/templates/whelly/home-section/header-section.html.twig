@@ -20,6 +20,12 @@
                             <li><a href="#"><i class="ti-pinterest"></i></a></li>
                         </ul>
                     </div>
+                    <div class="social">
+                        <ul class="language">
+                            <li ><a class="{{ app.request.getLocale() == 'fr' ? 'active' : '' }}" href="{{ path('setlocale', {'language': 'fr'}) }}">FR</a></li>
+                            <li><a class="{{ app.request.getLocale() == 'en' ? 'active' : '' }}" href="{{ path('setlocale', {'language': 'en'}) }}">EN</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,31 +48,20 @@
             <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                 <button class="close-navbar"><i class="ti-close"></i></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ path('whelly_index') }}">Accueil</a></li>
-                    <li><a href="{{ path('whelly_about_us') }}">Qui sommes nous</a></li>
-                    <li><a href="{{ path('whelly_offers') }}">Offres</a></li>
-                    <li><a href={{ path('whelly_project') }}>Projets</a></li>
-                    <li><a href="{{ path('whelly_news') }}">New</a></li>
-                    <li><a href="{{ path('whelly_contact') }}">Contact</a></li>
+                    <li><a href="{{ path('whelly_index') }}">{{ 'whelly.section.header.menu.home'|trans }}</a></li>
+                    <li><a href="{{ path('whelly_about_us') }}">{{ 'whelly.section.header.menu.about'|trans }}</a></li>
+                    <li><a href="{{ path('whelly_offers') }}">{{ 'whelly.section.header.menu.offers'|trans }}</a></li>
+                    <li><a href={{ path('whelly_project') }}>{{ 'whelly.section.header.menu.projects'|trans }}</a></li>
+                    <li><a href="{{ path('whelly_news') }}">{{ 'whelly.section.header.menu.news'|trans }}</a></li>
+                    <li><a href="{{ path('whelly_contact') }}">{{ 'whelly.section.header.menu.contact'|trans }}</a></li>
                 </ul>
             </div><!-- end of nav-collapse -->
 
             <div class="search-contact">
                 <div class="header-search-form-wrapper">
-                    <button class="search-toggle-btn"><i class="ti-search"></i></button>
-                    <div class="header-search-form">
-                        <form>
-                            <div>
-                                <label>
-                                    <input type="text" class="form-control" placeholder="Search here...">
-                                </label>
-                                <button type="submit"><i class="ti-search"></i></button>
-                            </div>
-                        </form>
-                    </div>
                 </div>
                 <div class="contact-btn">
-                    <a href="#" class="theme-btn">Demande de devis</a>
+                    <a href="#" class="theme-btn">{{ 'whelly.section.header.menu.quote_request'|trans }}</a>
                 </div>
             </div>
         </div>

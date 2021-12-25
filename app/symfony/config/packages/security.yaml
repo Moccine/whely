@@ -22,23 +22,8 @@ security:
                 check_path: /api/login_check
                 success_handler: lexik_jwt_authentication.handler.authentication_success
                 failure_handler: lexik_jwt_authentication.handler.authentication_failure
-        api:
-            pattern: ^/api
-            stateless: true
-            provider: user
-            guard:
-                authenticators:
-                    - lexik_jwt_authentication.jwt_token_authenticator
-        admin:
-            pattern: ^/_easyadmin
-            provider: admin
-            logout:
-                invalidate_session: true
-                path: /_easyadmin/logout
-                target: /_easyadmin/login
-            guard:
-                authenticators:
-                    - App\Security\Guard\AdminAuthenticator
+
+
         main:
             pattern: ^/
             provider: user
@@ -46,9 +31,7 @@ security:
                 invalidate_session: true
                 path: /logout
                 target: /
-            guard:
-                authenticators:
-                    - App\Security\Guard\UserAuthenticator
+
     access_control:
         - { path: ^/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/profile, roles: ROLE_USER }

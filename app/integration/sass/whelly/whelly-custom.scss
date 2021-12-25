@@ -28,14 +28,19 @@ $text-color: $mid-gray;
 $heading-color: $black2;
 
 $theme-primary-color: #7ab54d;
-.theme-btn:after, .theme-btn-s2:after, .submit-btn:after{
+.theme-btn:after, .theme-btn-s2:after, .submit-btn:after, button.submit-bt, a.theme-btn{
   background: #7ab54d;
 }
 .contact-pg-section .office-info {
   content: "";
   background-color: #7ab54d;
-
 }
-input.error {
+input.error, textarea.error {
   border: solid 1px red !important;
+}
+.header-style-2 .topbar .social .language a.active {
+  color: #7ab54d;
+}
+.submit-area button.submit-btn {
+  background-color: #7ab54d !important;
 }
