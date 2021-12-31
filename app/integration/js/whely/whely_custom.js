@@ -13,6 +13,7 @@ $(document).ready(function () {
   $ajaxFailed.hide();
   let submitButton = $("#contact-submit")
   submitButton.on('click', (e) => {
+
     // check name
     let $name = $form.find('#name');
     $name.removeClass('error')
@@ -20,7 +21,6 @@ $(document).ready(function () {
       $name.addClass('error')
       return false;
     }
-
 
     // check phone
     let $phone = $form.find('#phone');
@@ -39,16 +39,14 @@ $(document).ready(function () {
     }
     // check subject
     let $subject = $form.find('#note')
-    console.log($subject.val())
-    if ($subject.val()) {
+    $subject.removeClass('error')
+    if (!$subject.val()) {
       $subject.addClass('input error')
       $ajaxSuccess.hide()
       $ajaxFailed.html('Choisir votre objectif').show()
       return false;
     }
 
-
-/*
     $.ajax({
       type: "POST",
       url: '/whelly/send/mail',
@@ -57,6 +55,7 @@ $(document).ready(function () {
         if (data.msg === 'success') {
           $ajaxFailed.hide()
           $ajaxSuccess.html('Ajouter avec success').show();
+          location.reload();
         }else {
           $ajaxSuccess.hide()
           $ajaxFailed.html(data.msg).show();
@@ -67,7 +66,6 @@ $(document).ready(function () {
 
       }
     });
-*/
   })
 //---------------------------------------------------
 

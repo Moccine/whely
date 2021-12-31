@@ -180,6 +180,16 @@ whelly:
               skill2: 'Service aux particuliers'
               skill3: 'Construction'
               skill4: 'Tourisme et loisir'
+    cta:
+      text: 'Nous prenons soin de vous'
+      title: 'Service de support aux entreprises'
+      contact: 'Reserver'
+    partners:
+      title: 'Our partners'
+  page_404:
+    title: 'Oups! Page non trouvée!'
+    text: 'Nous sommes désolés, mais nous ne parvenons pas à trouver la page que vous avez demandée. Cela peut être dû au fait que vous avez mal saisi l''adresse Web.'
+    back_to_home: 'Accueil'
 
 
 

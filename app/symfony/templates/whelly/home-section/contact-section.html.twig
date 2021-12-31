@@ -17,9 +17,9 @@
                         <span>{{ 'whelly.section.contact.contact_us.title'|trans }}</span>
                         <h2> {{ 'whelly.section.contact.contact_us.text_1'|trans }}<span>{{ 'whelly.section.contact.contact_us.text_2'|trans }}</span></h2>
                     </div>
-                    <form  method="post" id="contact-form-main2">
+                    <form   id="contact-form-main2">
                         <div>
-                            <label for="name"></label><input type="text" class="form-control" name="name" id="name" placeholder="{{ 'whelly.section.contact.form.placeholder.name'|trans }}" value="momo">
+                            <label for="name"></label><input type="text" class="form-control" name="name" id="name" placeholder="{{ 'whelly.section.contact.form.placeholder.name'|trans }}" value="">
                         </div>
                         <div>
                             <label for="email"></label><input type="email" class="form-control" name="email" id="email" placeholder="{{ 'whelly.section.contact.form.placeholder.email'|trans }}" value="momo@gmail.com">
@@ -32,17 +32,17 @@
                         </div>
                         <div class="fullwidth">
                             <label for="note"></label><textarea class="form-control" name="note" id="note"
-                                                                placeholder="{{ 'whelly.section.contact.form.placeholder.desciption'|trans }}"
-                                                                value=""></textarea>
-                        </div>
-                        <div class="submit-area">
-                            <button  id="contact-submit"class="submit-btn">{{ 'whelly.section.contact.form.submit'|trans }}</button>
+                                                               placeholder="{{ 'whelly.section.contact.form.placeholder.desciption'|trans }}"
+                            ></textarea>
                         </div>
                       <div class="clearfix error-handling-messages">
                             <div id="success">{{ 'whelly.section.contact.form.success'|trans }}</div>
                             <div id="error"> {{ 'whelly.section.form.error'|trans }} </div>
                         </div>
                     </form>
+                    <div class="submit-area">
+                        <button  id="contact-submit"class="submit-btn">{{ 'whelly.section.contact.form.submit'|trans }}</button>
+                    </div>
                 </div>
             </div>
         </div>

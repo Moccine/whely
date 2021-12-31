@@ -1,10 +1,41 @@
 {% extends 'whelly/commons/base.html.twig' %}
 
 {% block body %}
-    <h1>Page not found</h1>
+    <!-- start page-title -->
+    <section class="page-title">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <h2>404</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>404</li>
+                    </ol>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end page-title -->
 
-    <p>
-        The requested page couldn't be located. Checkout for any URL
-        misspelling or <a href="{{ path('homepage') }}">return to the homepage</a>.
-    </p>
+
+    <!-- start error-404-section -->
+    <section class="error-404-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="content clearfix">
+                        <div class="error">
+                            <h2>404</h2>
+                        </div>
+                        <div class="error-message">
+                            <h3>{{ 'whelly.page_404.title'|trans }}</h3>
+                            <p>{{ 'whelly.page_404.text'|trans }}</p>
+                            <a href="{{ path('whelly_index') }}" class="theme-btn">{{ 'whelly.page_404.back_to_home'|trans }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end error-404-section -->
 {% endblock %}

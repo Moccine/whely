@@ -9,16 +9,13 @@
 {% include 'whelly/home-section/features-section.html.twig' %}
 <!-- end features-section-s2 -->
 
-
 <!-- start about-us-section-s2 -->
 {% include 'whelly/home-section/about-us-section.html.twig' %}
 <!-- end about-us-section-s2 -->
 
-
 <!-- start services-section-s2 -->
 {% include 'whelly/home-section/services-section.html.twig' %}
 <!-- end services-section-s2 -->
-
 
 <!-- start contact-section -->
 {% include 'whelly/home-section/contact-section.html.twig' %}
@@ -27,21 +24,8 @@
 
 
 <!-- start cta-section-s2 -->
-<section class="cta-section-s2">
-    <div class="container">
-        <div class="row">
-            <div class="col col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2">
-                <div class="cta-details">
-                    <p>Nous prenons soin de vous</p>
-                    <h2>Service de support aux entreprises</h2>
-                    <a href="#" class="theme-btn">Reserver</a>
-                </div>
-            </div>
-        </div>
-    </div> <!-- end container -->
-</section>
+    {%  include 'whelly/home-section/cta-section.twig' %}
 <!-- end cta-section-s2 -->
-
 
 <!-- start latest-projects-section-s2 -->
 {% include 'whelly/home-section/latest-project-section.html.twig' %}
@@ -56,33 +40,7 @@
 <!-- end team-section -->
 
 <!-- start partners-section -->
-<section class="partners-section">
-    <h2 class="hidden">Nos partenaires</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col col-xs-12">
-                <div class="partner-grids partners-slider">
-                    <div class="grid">
-                        <img src="{{ asset('whelly/assets/images/partners/img-1.jpg') }}" alt>
-                    </div>
-                    <div class="grid">
-                        <img src="{{ asset('whelly/assets/images/partners/img-2.jpg') }}" alt>
-                    </div>
-                    <div class="grid">
-                        <img src="{{ asset('whelly/assets/images/partners/img-3.jpg') }}" alt>
-                    </div>
-                    <div class="grid">
-                        <img src="{{ asset('whelly/assets/images/partners/img-4.jpg') }}" alt>
-                    </div>
-                    <div class="grid">
-                        <img src="{{ asset('whelly/assets/images/partners/img-5.jpg') }}" alt>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="separator"></div>
-    </div> <!-- end container -->
-</section>
+{% include 'whelly/home-section/partners-section.html.twig' %}
 <!-- end partners-section -->
 
 

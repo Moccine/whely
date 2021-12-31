@@ -61,13 +61,4 @@ class IndexController extends AbstractController
     return $this->render('whelly/news.html.twig', [
     ]);
   }
-  /**
-   * @Route("/whelly/send/mail", name="whelly_send_mail", methods={"post"})
-   */
-  public function wellySendMail(Request  $request): Response
-  {
-    dd($request);
-
-    return $this->redirectToRoute('whelly_index');
-  }
 }

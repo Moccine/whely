@@ -181,6 +181,16 @@ whelly:
         skill3: 'Construction'
         skill4: 'Tourism and leisure'
 
+    cta:
+      text: 'We take care of you'
+      title: 'Business support service'
+      contact: 'To book'
+    partners:
+      title: 'Our partners'
+  page_404:
+    title: 'Oops! Page Not Found!'
+    text: 'We’re sorry but we can''t seem to find the page you requested. This might be because you have typed the web address incorrectly.'
+    back_to_home: 'Back to home'
 
 
 
