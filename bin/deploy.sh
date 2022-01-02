@@ -16,7 +16,7 @@ cd /var/www/whely/whely/app/integration/ && yarn run start
 echo -e 'Installation of assets'
 php bin/console assets:install public
 echo -e 'Installation of Front dependencies'
-cd /var/www/bmsconsulting-gn.com/app/integration/ && yarn run encore production
+cd /var/www/whely/whely/app/integration/ && yarn run encore production
 
 cd /var/www/whely/whely/app/symfony
 echo -e 'Clear du cache'
